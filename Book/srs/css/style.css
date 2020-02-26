@@ -1,87 +1,105 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 body {
-    font-family: sans-serif;
+  font-family: sans-serif;
+}
+section {
+  padding: 100px 0;
 }
 .container {
-    height: auto;
-    max-width: 1140px;
-    width: 96%;
-    margin-left: auto;
-    margin-right: auto;
+  height: auto;
+  max-width: 1140px;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 159px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
+
 .brand {
- color: #95989a;
- font-size: 20px;
- font-weight: 700;
- text-transform: uppercase;
+  color: #95989a;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
+
 .social a {
- text-decoration: none;
- margin-right: 20px;
+  text-decoration: none;
+  margin-right: 20px;
 }
+
 .hero {
-    background-color: #f4f5f7;
+  background-color: #f4f5f7;
 }
+
 .main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .main-text {
-    width: 50%;
-    color: #32325f;
+  width: 50%;
+  color: #32325f;
 }
+
 .subtitle {
- font-size: 20px;
- font-weight: 400;
- display: block;
- margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 15px;
 }
+
 .title {
- font-size: 48px;
- font-weight: 700;
- display: block;
- margin-bottom: 25px;
+  font-size: 48px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 25px;
 }
+
 .description {
- font-size: 20px;
- font-weight: 400;
- line-height: 26px;
- margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 16px;
 }
+
 .price-tag {
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 20px;
-    display: block;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  display: block;
 }
+
 .price {
-    display: block;
-    margin-bottom: 40px;
-    font-size: 48px;
-    font-weight: 400;
+  display: block;
+  margin-bottom: 40px;
+  font-size: 48px;
+  font-weight: 400;
 }
+
 .btn {
-    text-decoration: none;
-    box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
-    border-radius: 6px;
-    padding: 20px 30px;
-    color: #ffffff;
-    background-color: grey;
+  text-decoration: none;
+  box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+  border-radius: 6px;
+  padding: 20px 30px;
+  color: #ffffff;
+  background-color: grey;
+  display: inline-block;
 }
+
 .btn-success {
-    background-color: #2dce89;
-    margin-right: 30px;
+  background-color: #2dce89;
+  margin-right: 30px;
 }
+
 .btn-primary {
-    background-color: #5e72e4;
+  background-color: #5e72e4;
 }
